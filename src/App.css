@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+.choco-pizza{
+  margin: 5px;
+  line-height: 1em;
+  font-weight: 1100;
+  font-size: 38px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.Delicious{
+  display: flex;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 5px;
+    line-height: 1.1em;
+}
+.best-food{
+  display: block;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12px;
+    letter-spacing: -.1em;
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-weight: 500;
+    color: grey;
+}
+
+.logo-a{
+  display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.Recipe-Column{
+  display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+}
+
+
+.Share-Button{
+    background-color: rgb(161, 91, 10);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 175px;
+    margin-left: 121px;
+}

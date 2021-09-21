@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import ButtonList from './ButtonList.js'
+import Footer from './Footer.js'
+import Header from './Header.js'
+import ImageSection from './ImageSection.js'
+import IngredientList from './IngredientList.js'
+import Recipe from './Recipe.js'
+import './App.css'
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        />
+
+
+        <ImageSection
+          img='choco-pizza.png'
+        />
+
+
+        <Recipe />
+
+
+        <IngredientList />
+
+        <Footer />
+
+
+
+      </div>
+    )
+  }
 }
-
-export default App;
