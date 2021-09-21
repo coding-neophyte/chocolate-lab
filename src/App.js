@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ButtonList from './ButtonList.js'
 import Footer from './Footer.js'
 import Header from './Header.js'
 import ImageSection from './ImageSection.js'
